@@ -1,0 +1,105 @@
+header,
+footer {
+  background-color: lightgray;
+  border: 1px solid black;
+  /* font-family: "Times New Roman", Times, serif; */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: rgb(116, 228, 116);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bordered-image {
+  border: solid 1px rgb(158, 156, 156);
+  border-radius: 2px;
+}
+
+/* #main {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  color: #202020;
+  margin: 20px 0px;
+  padding: 5px;
+} */
+
+#main label {
+  font-weight: bold;
+}
+
+#main input[type="text"],
+#main select,
+#main input[type="password"],
+#main textarea {
+  width: 150px;
+}
+
+#main input[type="submit"] {
+  background-color: rgb(135, 163, 83);
+  color: white;
+  border-radius: 15px;
+  padding: 3px;
+  margin-top: 5px;
+}
+
+.container {
+  width: 989px;
+  /* text-align: center; */
+  margin: 0 auto;
+  background-color: rgb(133, 133, 133);
+  padding: 5px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+#results {
+  padding: 2px;
+  width: 600px;
+  display: inline-block;
+}
+button {
+  width: 80px;
+}
+a {
+  color: green;
+}
+
+a:hover {
+  color: white;
+}
+
+header nav {
+  float: right;
+}
+
+header nav li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#logo {
+  background-size: 20%;
+  width: 300px;
+}
+
+.result {
+  margin: 5px;
+  border: 1px solid #888;
+}
+
+.result .title {
+  font-weight: bold;
+}
